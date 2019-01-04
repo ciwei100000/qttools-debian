@@ -1,10 +1,9 @@
-qttools-opensource-src (5.11.3-3) UNRELEASED; urgency=medium
+qttools-opensource-src (5.11.3-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Split qdoc into a separate package (qdoc-qt5), build it only on
     architectures where LLVM/clang is available (closes: #904688).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Jan 2019 23:52:27 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 04 Jan 2019 19:06:50 +0300
 
 qttools-opensource-src (5.11.3-2) unstable; urgency=medium
 
