@@ -1,3 +1,8 @@
+qttools-opensource-src (5.11.3-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2019 10:34:50 +0100
+
 qttools-opensource-src (5.11.3-3) unstable; urgency=medium
 
   * Split qdoc into a separate package (qdoc-qt5), build it only on
