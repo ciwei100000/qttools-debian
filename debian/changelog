@@ -1,11 +1,10 @@
-qttools-opensource-src (5.11.3-4) UNRELEASED; urgency=medium
+qttools-opensource-src (5.11.3-4) unstable; urgency=medium
 
-  [ Pino Toscano ]
   * Limit also the libclang-dev build dependency on the architectures where
     it is available.
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2019 10:34:50 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 12 Jan 2019 10:42:39 +0100
 
 qttools-opensource-src (5.11.3-3) unstable; urgency=medium
 
