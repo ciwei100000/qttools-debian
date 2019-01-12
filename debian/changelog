@@ -1,5 +1,8 @@
 qttools-opensource-src (5.11.3-4) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Limit also the libclang-dev build dependency on the architectures where
+    it is available.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2019 10:34:50 +0100
 
