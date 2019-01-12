@@ -8,3 +8,5 @@ qttools5-examples: image-file-in-usr-lib usr/lib/*/qt5/examples/assistant/simple
 qttools5-examples: image-file-in-usr-lib usr/lib/*/qt5/examples/assistant/simpletextviewer/documentation/images/mainwindow.png
 qttools5-examples: image-file-in-usr-lib usr/lib/*/qt5/examples/assistant/simpletextviewer/documentation/images/open.png
 qttools5-examples: image-file-in-usr-lib usr/lib/*/qt5/examples/assistant/simpletextviewer/documentation/images/wildcard.png
+# Documentation of each example.
+qttools5-examples: package-contains-documentation-outside-usr-share-doc
