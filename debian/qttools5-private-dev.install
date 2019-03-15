@@ -87,11 +87,8 @@ usr/include/*/qt5/QtDesigner/*/QtDesigner/private/widgetfactory_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/zoomwidget_p.h
 usr/include/*/qt5/QtDesignerComponents/*/QtDesignerComponents/private/lib_pch.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpcollectionhandler_p.h
-usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpdatainterface_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpdbreader_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpengine_p.h
-usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpgenerator_p.h
-usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpprojectdata_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexreader_default_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexreader_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexwriter_default_p.h
