@@ -63,7 +63,7 @@ Description: Qt 5 D-Bus tool
  the QtDBus library.
 
 Package: qdoc-qt5
-Architecture: amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-any mips mips64 mips64el mips64r6 mips64r6el mipsel mipsr6 mipsr6el powerpc ppc64 ppc64el s390x sparc64
+Architecture: kfreebsd-any amd64 arm64 armel armhf hurd-i386 i386 mips mips64 mips64el mips64r6 mips64r6el mipsel mipsr6 mipsr6el powerpc ppc64 ppc64el s390x sparc64
 Multi-Arch: foreign
 Section: utils
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
