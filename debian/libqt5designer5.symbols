@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 5.11.2 amd64 hppa
+# SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.0
+ Qt_5.12@Qt_5.12 5.12.0
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -801,8 +802,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal13WidgetFactory20applyStyleToTopLevelEP6QStyleP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal13WidgetFactory21createUnmanagedLayoutEP7QWidgeti@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal13WidgetFactory23activeFormWindowChangedEP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal13WidgetFactory23m_lastPassiveInteractorE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal13WidgetFactory27m_lastWasAPassiveInteractorE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal13WidgetFactory35disableStyleCustomPaintingPropertyCE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal13WidgetFactory7StringsC1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal13WidgetFactory7StringsC2Ev@Qt_5 5.6.0~beta
@@ -970,14 +969,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal14QLayoutSupportD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14QLayoutSupportD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14QLayoutSupportD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommand10removePageEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommand4initEP8QToolBox@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommand7addPageEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal14ToolBoxCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14WidgetDataBase11loadPluginsEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14WidgetDataBase11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14WidgetDataBase11qt_metacastEPKc@Qt_5 5.6.0~beta
@@ -1089,29 +1080,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal16StyleSheetEditor16staticMetaObjectE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal16StyleSheetEditorC1EP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal16StyleSheetEditorC2EP7QWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommand10removePageEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommand4initEP10QTabWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommand7addPageEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal16TabWidgetCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal16buildIncludeFileE7QStringNS_11IncludeTypeE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommand4initEP10QTabWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommand4initEP10QTabWidgetNS0_13InsertionModeE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddTabPageCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddToolBarCommand4initEP11QMainWindow@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddToolBarCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddToolBarCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddToolBarCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17AddToolBarCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17DesignerIconCache11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17DesignerIconCache11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17DesignerIconCache16staticMetaObjectE@Qt_5 5.6.0~beta
@@ -1121,17 +1090,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17DesignerIconCacheC2EPNS_19DesignerPixmapCacheEP7QObject@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17DesignerMetaFlagsC1ERK7QStringS3_S3_@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17DesignerMetaFlagsC2ERK7QStringS3_S3_@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17DockWidgetCommand4initEP11QDockWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17DockWidgetCommandC1ERK7QStringP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17DockWidgetCommandC2ERK7QStringP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17DockWidgetCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17DockWidgetCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17DockWidgetCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17MenuActionCommand10insertMenuEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17MenuActionCommand10removeMenuEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17MenuActionCommand4initEP7QActionS2_P7QWidgetS4_@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17MenuActionCommandC1ERK7QStringP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17MenuActionCommandC2ERK7QStringP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17PromotionTaskMenu10addActionsEP28QDesignerFormWindowInterfacejP5QMenu@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17PromotionTaskMenu10addActionsEP28QDesignerFormWindowInterfacejR5QListIP7QActionE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17PromotionTaskMenu10addActionsEjP5QMenu@Qt_5 5.6.0~beta
@@ -1212,14 +1170,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18MorphLayoutCommandD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18MorphLayoutCommandD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18MorphLayoutCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommand4initEP10QTabWidgetP7QWidgetRK5QIconRK7QStringii@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18MoveTabPageCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18QDesignerPromotion16addPromotedClassERK7QStringS3_S3_PS1_@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18QDesignerPromotion19removePromotedClassERK7QStringPS1_@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18QDesignerPromotion22refreshObjectInspectorEv@Qt_5 5.6.0~beta
@@ -1397,45 +1347,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal20AddConnectionCommand4undoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20AddConnectionCommandC1EPNS_14ConnectionEditEPNS_10ConnectionE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20AddConnectionCommandC2EPNS_14ConnectionEditEPNS_10ConnectionE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddDockWidgetCommand4initEP11QMainWindow@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddDockWidgetCommand4initEP11QMainWindowP11QDockWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddDockWidgetCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddDockWidgetCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddDockWidgetCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddDockWidgetCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddMenuActionCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20AddMenuActionCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateMenuBarCommand4initEP11QMainWindow@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateMenuBarCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateMenuBarCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateMenuBarCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateMenuBarCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateSubmenuCommand4initEP13QDesignerMenuP7QActionP7QObject@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateSubmenuCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateSubmenuCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateSubmenuCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20CreateSubmenuCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20CursorSelectionState4saveEPK28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20CursorSelectionStateC1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20CursorSelectionStateC2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteMenuBarCommand4initEP8QMenuBar@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteMenuBarCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteMenuBarCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteMenuBarCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteMenuBarCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommand4initEP10QTabWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteTabPageCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteToolBarCommand4initEP8QToolBar@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteToolBarCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteToolBarCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteToolBarCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20DeleteToolBarCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20FormBuilderClipboardC1EP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20FormBuilderClipboardC2EP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20PreviewConfiguration12fromSettingsERK7QStringPK26QDesignerSettingsInterface@Qt_5 5.6.0~beta
@@ -1491,24 +1405,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal20RichTextEditorDialogD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20RichTextEditorDialogD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20RichTextEditorDialogD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommand10removePageEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommand4initEP14QStackedWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommand7addPageEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal20StackedWidgetCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal20includeSpecificationE7QString@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommand4initEP8QToolBox@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommand4initEP8QToolBoxNS0_13InsertionModeE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal21AddToolBoxPageCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal21PlainTextEditorDialog10showDialogEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal21PlainTextEditorDialog11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal21PlainTextEditorDialog11qt_metacastEPKc@Qt_5 5.6.0~beta
@@ -1534,11 +1431,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal21SimplifyLayoutCommandD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal21SimplifyLayoutCommandD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal21SimplifyLayoutCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22ActionInsertionCommand12insertActionEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22ActionInsertionCommand12removeActionEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22ActionInsertionCommand4initEP7QWidgetP7QActionS4_b@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22ActionInsertionCommandC1ERK7QStringP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22ActionInsertionCommandC2ERK7QStringP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22ContainerWidgetCommand10removePageEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22ContainerWidgetCommand4initEP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22ContainerWidgetCommand7addPageEv@Qt_5 5.6.0~beta
@@ -1547,11 +1439,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22ContainerWidgetCommandD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22ContainerWidgetCommandD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22ContainerWidgetCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22CreateStatusBarCommand4initEP11QMainWindow@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22CreateStatusBarCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22CreateStatusBarCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22CreateStatusBarCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22CreateStatusBarCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22DeleteStatusBarCommand4initEP10QStatusBar@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22DeleteStatusBarCommand4redoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22DeleteStatusBarCommand4undoEv@Qt_5 5.6.0~beta
@@ -1567,14 +1454,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22LanguageResourceDialogD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22LanguageResourceDialogD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22LanguageResourceDialogD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommand4initEP8QToolBoxP7QWidgeti@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal22MoveToolBoxPageCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22PropertySheetEnumValueC1EiRKNS_16DesignerMetaEnumE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22PropertySheetEnumValueC1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22PropertySheetEnumValueC2EiRKNS_16DesignerMetaEnumE@Qt_5 5.6.0~beta
@@ -1624,8 +1503,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal23AdjustWidgetSizeCommand4undoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23AdjustWidgetSizeCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23AdjustWidgetSizeCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal23InsertActionIntoCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal23InsertActionIntoCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerPropertyEditor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerPropertyEditor11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerPropertyEditor12editorClosedEv@Qt_5 5.6.0~beta
@@ -1656,10 +1533,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal23QDesignerSharedSettings7setZoomEi@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerSharedSettingsC1EP28QDesignerFormEditorInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerSharedSettingsC2EP28QDesignerFormEditorInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal23RemoveActionFromCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal23RemoveActionFromCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal23RemoveMenuActionCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal23RemoveMenuActionCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23promotedCustomClassNameEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24ActionRepositoryMimeData11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24ActionRepositoryMimeData11qt_metacastEPKc@Qt_5 5.6.0~beta
@@ -1687,22 +1560,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24DeleteConnectionsCommand4undoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24DeleteConnectionsCommandC1EPNS_14ConnectionEditERK5QListIPNS_10ConnectionEE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24DeleteConnectionsCommandC2EPNS_14ConnectionEditERK5QListIPNS_10ConnectionEE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommand4initEP8QToolBox@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteToolBoxPageCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommand4initEP14QStackedWidgetP7QWidgeti@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24MoveStackedWidgetCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24NewFormWidgetFormBuilder19createCustomWidgetsEP16DomCustomWidgets@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24NewFormWidgetFormBuilderC1EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24NewFormWidgetFormBuilderC2EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Qt_5 5.6.0~beta
@@ -1790,15 +1647,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal26QDesignerFormWindowManagerD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal26QDesignerFormWindowManagerD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal26QDesignerFormWindowManagerD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommand4initEP14QStackedWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommand4initEP14QStackedWidgetNS0_13InsertionModeE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal27AddStackedWidgetPageCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommand15updateSelectionEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommand4initERK5QListI8QPointerI7QWidgetEERK7QString@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommand4redoEv@Qt_5 5.6.0~beta
@@ -1840,14 +1688,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKN12QKeySequence11StandardKeyEbRK7QStringS7_@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC1EbRK7QStringS3_@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC2EbRK7QStringS3_@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommand4initEP14QStackedWidget@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommand4redoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommandC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommandD0Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommandD1Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal30DeleteStackedWidgetPageCommandD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal30StyleSheetPropertyEditorDialog11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal30StyleSheetPropertyEditorDialog11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal30StyleSheetPropertyEditorDialog15applyStyleSheetEv@Qt_5 5.6.0~beta
@@ -2593,6 +2433,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomTime4readER16QXmlStreamReader@Qt_5 5.6.0~beta
  _ZN7DomTimeD1Ev@Qt_5 5.6.0~beta
  _ZN7DomTimeD2Ev@Qt_5 5.6.0~beta
+ (optional=templinst)_ZN7QObject7connectIMS_FvPS_EM37QDesignerAbstractPropertySheetFactoryFvS1_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Qt_5 5.12.2
  _ZN8DomBrush15setElementColorEP8DomColor@Qt_5 5.6.0~beta
  _ZN8DomBrush16takeElementColorEv@Qt_5 5.6.0~beta
  _ZN8DomBrush17setElementTextureEP11DomProperty@Qt_5 5.6.0~beta
@@ -2889,7 +2730,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK18qdesigner_internal14ConnectionEdit10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14ConnectionEdit10widgetRectEP7QWidget@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14ConnectionEdit12connectionAtERK6QPoint@Qt_5 5.6.0~beta
- _ZNK18qdesigner_internal14ConnectionEdit15paintConnectionEP8QPainterPNS_10ConnectionEP4QMapIP7QWidgetS7_ES9_@Qt_5 5.6.0~beta
+ _ZNK18qdesigner_internal14ConnectionEdit15paintConnectionEP8QPainterPNS_10ConnectionEP5QHashIP7QWidgetS7_ES9_@Qt_5 5.12.2
  _ZNK18qdesigner_internal14ConnectionEdit5stateEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14ConnectionEdit8selectedEPKNS_10ConnectionE@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14ConnectionEdit8widgetAtERK6QPoint@Qt_5 5.6.0~beta
@@ -3430,7 +3271,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTIN18qdesigner_internal14PreviewManagerE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal14PropertyHelperE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal14QLayoutSupportE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal14ToolBoxCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal14WidgetDataBaseE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal15IconThemeEditorE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal15InvisibleWidgetE@Qt_5 5.6.0~beta
@@ -3442,19 +3282,13 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTIN18qdesigner_internal16QDesignerDnDItemE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal16SignalSlotDialogE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal16StyleSheetEditorE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal16TabWidgetCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal17AddTabPageCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal17AddToolBarCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal17DesignerIconCacheE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal17DockWidgetCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal17MenuActionCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal17PromotionTaskMenuE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal17QDesignerMimeDataE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal17QDesignerTaskMenuE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal18BreakLayoutCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal18LowerWidgetCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal18MorphLayoutCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal18MoveTabPageCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal18QDesignerPromotionE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal18QDesignerWidgetBoxE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal18RaiseWidgetCommandE@Qt_5 5.6.0~beta
@@ -3470,40 +3304,23 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTIN18qdesigner_internal19QDesignerWidgetItemE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal19RemoveActionCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal20AddConnectionCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20AddDockWidgetCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20AddMenuActionCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20CreateMenuBarCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20CreateSubmenuCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20DeleteMenuBarCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20DeleteTabPageCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20DeleteToolBarCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal20QDesignerFormBuilderE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal20ResetPropertyCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal20RichTextEditorDialogE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal20StackedWidgetCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal21AddToolBoxPageCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal21PlainTextEditorDialogE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal21ReparentWidgetCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal21SimplifyLayoutCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal22ActionInsertionCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal22ContainerWidgetCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal22CreateStatusBarCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal22DeleteStatusBarCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal22LanguageResourceDialogE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal22MoveToolBoxPageCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal22QDesignerIntrospectionE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal22StyleSheetEditorDialogE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal23AdjustWidgetSizeCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal23InsertActionIntoCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal23QDesignerPropertyEditorE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal23RemoveActionFromCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal23RemoveMenuActionCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal24ActionRepositoryMimeDataE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal24ChangeCurrentPageCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal24ChangeLayoutItemGeometryE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal24DeleteConnectionsCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal24DeleteToolBoxPageCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal24MoveStackedWidgetCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal24NewFormWidgetFormBuilderE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal24QDesignerObjectInspectorE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal25AddDynamicPropertyCommandE@Qt_5 5.6.0~beta
@@ -3514,12 +3331,10 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTIN18qdesigner_internal26QDesignerFormEditorCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal26QDesignerFormWindowCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal26QDesignerFormWindowManagerE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal27AddStackedWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal28PromoteToCustomWidgetCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal28RemoveDynamicPropertyCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal29AddContainerWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal29DemoteFromCustomWidgetCommandE@Qt_5 5.6.0~beta
- _ZTIN18qdesigner_internal30DeleteStackedWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal30StyleSheetPropertyEditorDialogE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal31ChangeFormLayoutItemRoleCommandE@Qt_5 5.6.0~beta
  _ZTIN18qdesigner_internal32DeleteContainerWidgetPageCommandE@Qt_5 5.6.0~beta
@@ -3604,7 +3419,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTSN18qdesigner_internal14PreviewManagerE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal14PropertyHelperE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal14QLayoutSupportE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal14ToolBoxCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal14WidgetDataBaseE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal15IconThemeEditorE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal15InvisibleWidgetE@Qt_5 5.6.0~beta
@@ -3616,19 +3430,13 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTSN18qdesigner_internal16QDesignerDnDItemE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal16SignalSlotDialogE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal16StyleSheetEditorE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal16TabWidgetCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal17AddTabPageCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal17AddToolBarCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal17DesignerIconCacheE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal17DockWidgetCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal17MenuActionCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal17PromotionTaskMenuE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal17QDesignerMimeDataE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal17QDesignerTaskMenuE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal18BreakLayoutCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal18LowerWidgetCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal18MorphLayoutCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal18MoveTabPageCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal18QDesignerPromotionE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal18QDesignerWidgetBoxE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal18RaiseWidgetCommandE@Qt_5 5.6.0~beta
@@ -3644,40 +3452,23 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTSN18qdesigner_internal19QDesignerWidgetItemE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal19RemoveActionCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal20AddConnectionCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20AddDockWidgetCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20AddMenuActionCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20CreateMenuBarCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20CreateSubmenuCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20DeleteMenuBarCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20DeleteTabPageCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20DeleteToolBarCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal20QDesignerFormBuilderE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal20ResetPropertyCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal20RichTextEditorDialogE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal20StackedWidgetCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal21AddToolBoxPageCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal21PlainTextEditorDialogE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal21ReparentWidgetCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal21SimplifyLayoutCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal22ActionInsertionCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal22ContainerWidgetCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal22CreateStatusBarCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal22DeleteStatusBarCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal22LanguageResourceDialogE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal22MoveToolBoxPageCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal22QDesignerIntrospectionE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal22StyleSheetEditorDialogE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal23AdjustWidgetSizeCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal23InsertActionIntoCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal23QDesignerPropertyEditorE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal23RemoveActionFromCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal23RemoveMenuActionCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal24ActionRepositoryMimeDataE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal24ChangeCurrentPageCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal24ChangeLayoutItemGeometryE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal24DeleteConnectionsCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal24DeleteToolBoxPageCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal24MoveStackedWidgetCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal24NewFormWidgetFormBuilderE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal24QDesignerObjectInspectorE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal25AddDynamicPropertyCommandE@Qt_5 5.6.0~beta
@@ -3688,12 +3479,10 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTSN18qdesigner_internal26QDesignerFormEditorCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal26QDesignerFormWindowCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal26QDesignerFormWindowManagerE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal27AddStackedWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal28PromoteToCustomWidgetCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal28RemoveDynamicPropertyCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal29AddContainerWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal29DemoteFromCustomWidgetCommandE@Qt_5 5.6.0~beta
- _ZTSN18qdesigner_internal30DeleteStackedWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal30StyleSheetPropertyEditorDialogE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal31ChangeFormLayoutItemRoleCommandE@Qt_5 5.6.0~beta
  _ZTSN18qdesigner_internal32DeleteContainerWidgetPageCommandE@Qt_5 5.6.0~beta
@@ -3776,7 +3565,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTVN18qdesigner_internal14PreviewManagerE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal14PropertyHelperE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal14QLayoutSupportE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal14ToolBoxCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal14WidgetDataBaseE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal15IconThemeEditorE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal15InvisibleWidgetE@Qt_5 5.6.0~beta
@@ -3788,19 +3576,13 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTVN18qdesigner_internal16QDesignerDnDItemE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal16SignalSlotDialogE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal16StyleSheetEditorE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal16TabWidgetCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal17AddTabPageCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal17AddToolBarCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal17DesignerIconCacheE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal17DockWidgetCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal17MenuActionCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal17PromotionTaskMenuE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal17QDesignerMimeDataE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal17QDesignerTaskMenuE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal18BreakLayoutCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal18LowerWidgetCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal18MorphLayoutCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal18MoveTabPageCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal18QDesignerPromotionE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal18QDesignerWidgetBoxE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal18RaiseWidgetCommandE@Qt_5 5.6.0~beta
@@ -3816,40 +3598,23 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTVN18qdesigner_internal19QDesignerWidgetItemE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal19RemoveActionCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal20AddConnectionCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20AddDockWidgetCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20AddMenuActionCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20CreateMenuBarCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20CreateSubmenuCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20DeleteMenuBarCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20DeleteTabPageCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20DeleteToolBarCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal20QDesignerFormBuilderE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal20ResetPropertyCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal20RichTextEditorDialogE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal20StackedWidgetCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal21AddToolBoxPageCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal21PlainTextEditorDialogE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal21ReparentWidgetCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal21SimplifyLayoutCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal22ActionInsertionCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal22ContainerWidgetCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal22CreateStatusBarCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal22DeleteStatusBarCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal22LanguageResourceDialogE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal22MoveToolBoxPageCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal22QDesignerIntrospectionE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal22StyleSheetEditorDialogE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal23AdjustWidgetSizeCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal23InsertActionIntoCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal23QDesignerPropertyEditorE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal23RemoveActionFromCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal23RemoveMenuActionCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal24ActionRepositoryMimeDataE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal24ChangeCurrentPageCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal24ChangeLayoutItemGeometryE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal24DeleteConnectionsCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal24DeleteToolBoxPageCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal24MoveStackedWidgetCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal24NewFormWidgetFormBuilderE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal24QDesignerObjectInspectorE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal25AddDynamicPropertyCommandE@Qt_5 5.6.0~beta
@@ -3860,12 +3625,10 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTVN18qdesigner_internal26QDesignerFormEditorCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal26QDesignerFormWindowCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal26QDesignerFormWindowManagerE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal27AddStackedWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal28PromoteToCustomWidgetCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal28RemoveDynamicPropertyCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal29AddContainerWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal29DemoteFromCustomWidgetCommandE@Qt_5 5.6.0~beta
- _ZTVN18qdesigner_internal30DeleteStackedWidgetPageCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal30StyleSheetPropertyEditorDialogE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal31ChangeFormLayoutItemRoleCommandE@Qt_5 5.6.0~beta
  _ZTVN18qdesigner_internal32DeleteContainerWidgetPageCommandE@Qt_5 5.6.0~beta

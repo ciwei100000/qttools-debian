@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5Help.so.5 libqt5help5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.0
+ Qt_5.12@Qt_5.12 5.12.0
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -26,32 +27,11 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN11QHelpEngineD0Ev@Qt_5 5.6.0~beta
  _ZN11QHelpEngineD1Ev@Qt_5 5.6.0~beta
  _ZN11QHelpEngineD2Ev@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator10checkLinksERK18QHelpDataInterface@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator11addProgressEd@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator11insertFilesERK11QStringListRK7QStringS2_@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator11qt_metacastEPKc@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator12createTablesEv@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator13setupProgressEP18QHelpDataInterface@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator13statusChangedERK7QString@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator14insertContentsERK10QByteArrayRK11QStringList@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator14insertKeywordsERK5QListI18QHelpDataIndexItemERK11QStringList@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator14insertMetaDataERK4QMapI7QString8QVariantE@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator15progressChangedEd@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator16staticMetaObjectE@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator20registerCustomFilterERK7QStringRK11QStringListb@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator21registerVirtualFolderERK7QStringS2_@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator22insertFileNotFoundFileEv@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator22insertFilterAttributesERK11QStringList@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator7warningERK7QString@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator8generateEP18QHelpDataInterfaceRK7QString@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator9cleanupDBEv@Qt_5 5.6.0~beta
- _ZN14QHelpGenerator9writeTreeER11QDataStreamP20QHelpDataContentItemi@Qt_5 5.6.0~beta
- _ZN14QHelpGeneratorC1EP7QObject@Qt_5 5.6.0~beta
- _ZN14QHelpGeneratorC2EP7QObject@Qt_5 5.6.0~beta
- _ZN14QHelpGeneratorD0Ev@Qt_5 5.6.0~beta
- _ZN14QHelpGeneratorD1Ev@Qt_5 5.6.0~beta
- _ZN14QHelpGeneratorD2Ev@Qt_5 5.6.0~beta
+ _ZN11QHelpGlobal13codecFromDataERK10QByteArray@Qt_5 5.12.2
+ _ZN11QHelpGlobal13documentTitleERK7QString@Qt_5 5.12.2
+ _ZN11QHelpGlobal16codecFromXmlDataERK10QByteArray@Qt_5 5.12.2
+ _ZN11QHelpGlobal17codecFromHtmlDataERK10QByteArray@Qt_5 5.12.2
+ _ZN11QHelpGlobal22uniquifyConnectionNameERK7QStringPv@Qt_5 5.12.2
  _ZN15QHelpEngineCore11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN15QHelpEngineCore11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN15QHelpEngineCore12setupStartedEv@Qt_5 5.6.0~beta
@@ -96,8 +76,8 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN15QHelpIndexModelD0Ev@Qt_5 5.6.0~beta
  _ZN15QHelpIndexModelD1Ev@Qt_5 5.6.0~beta
  _ZN15QHelpIndexModelD2Ev@Qt_5 5.6.0~beta
- _ZN16QHelpContentItemC1ERK7QStringS2_P13QHelpDBReaderPS_@Qt_5 5.6.0~beta
- _ZN16QHelpContentItemC2ERK7QStringS2_P13QHelpDBReaderPS_@Qt_5 5.6.0~beta
+ _ZN16QHelpContentItemC1ERK7QStringRK4QUrlPS_@Qt_5 5.12.2
+ _ZN16QHelpContentItemC2ERK7QStringRK4QUrlPS_@Qt_5 5.12.2
  _ZN16QHelpContentItemD1Ev@Qt_5 5.6.0~beta
  _ZN16QHelpContentItemD2Ev@Qt_5 5.6.0~beta
  _ZN16QHelpIndexWidget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
@@ -110,12 +90,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN16QHelpIndexWidget8showLinkERK11QModelIndex@Qt_5 5.6.0~beta
  _ZN16QHelpIndexWidgetC1Ev@Qt_5 5.6.0~beta
  _ZN16QHelpIndexWidgetC2Ev@Qt_5 5.6.0~beta
- _ZN16QHelpProjectData8readDataERK7QString@Qt_5 5.6.0~beta
- _ZN16QHelpProjectDataC1Ev@Qt_5 5.6.0~beta
- _ZN16QHelpProjectDataC2Ev@Qt_5 5.6.0~beta
- _ZN16QHelpProjectDataD0Ev@Qt_5 5.6.0~beta
- _ZN16QHelpProjectDataD1Ev@Qt_5 5.6.0~beta
- _ZN16QHelpProjectDataD2Ev@Qt_5 5.6.0~beta
  _ZN17QHelpContentModel11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN17QHelpContentModel11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN17QHelpContentModel14createContentsERK7QString@Qt_5 5.6.0~beta
@@ -168,19 +142,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN18QHelpContentWidget8showLinkERK11QModelIndex@Qt_5 5.6.0~beta
  _ZN18QHelpContentWidgetC1Ev@Qt_5 5.6.0~beta
  _ZN18QHelpContentWidgetC2Ev@Qt_5 5.6.0~beta
- _ZN20QHelpDataContentItemC1EPS_RK7QStringS3_@Qt_5 5.6.0~beta
- _ZN20QHelpDataContentItemC2EPS_RK7QStringS3_@Qt_5 5.6.0~beta
- _ZN20QHelpDataContentItemD1Ev@Qt_5 5.6.0~beta
- _ZN20QHelpDataContentItemD2Ev@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSection10addContentEP20QHelpDataContentItem@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSection10setIndicesERK5QListI18QHelpDataIndexItemE@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSection11setContentsERK5QListIP20QHelpDataContentItemE@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSection18addFilterAttributeERK7QString@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSection7addFileERK7QString@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSection8addIndexERK18QHelpDataIndexItem@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSection8setFilesERK11QStringList@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSectionC1Ev@Qt_5 5.6.0~beta
- _ZN22QHelpDataFilterSectionC2Ev@Qt_5 5.6.0~beta
  _ZN22QHelpSearchQueryWidget11changeEventEP6QEvent@Qt_5 5.6.0~beta
  _ZN22QHelpSearchQueryWidget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN22QHelpSearchQueryWidget11qt_metacastEPKc@Qt_5 5.6.0~beta
@@ -211,8 +172,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK11QHelpEngine10indexModelEv@Qt_5 5.6.0~beta
  _ZNK11QHelpEngine10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK11QHelpEngine12contentModelEv@Qt_5 5.6.0~beta
- _ZNK14QHelpGenerator10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK14QHelpGenerator5errorEv@Qt_5 5.6.0~beta
  _ZNK15QHelpEngineCore10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK15QHelpEngineCore11customValueERK7QStringRK8QVariant@Qt_5 5.6.0~beta
  _ZNK15QHelpEngineCore13currentFilterEv@Qt_5 5.6.0~beta
@@ -239,13 +198,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK16QHelpContentItem5titleEv@Qt_5 5.6.0~beta
  _ZNK16QHelpContentItem6parentEv@Qt_5 5.6.0~beta
  _ZNK16QHelpIndexWidget10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK16QHelpProjectData12errorMessageEv@Qt_5 5.6.0~beta
- _ZNK16QHelpProjectData13customFiltersEv@Qt_5 5.6.0~beta
- _ZNK16QHelpProjectData13namespaceNameEv@Qt_5 5.6.0~beta
- _ZNK16QHelpProjectData13virtualFolderEv@Qt_5 5.6.0~beta
- _ZNK16QHelpProjectData14filterSectionsEv@Qt_5 5.6.0~beta
- _ZNK16QHelpProjectData8metaDataEv@Qt_5 5.6.0~beta
- _ZNK16QHelpProjectData8rootPathEv@Qt_5 5.6.0~beta
  _ZNK17QHelpContentModel10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK17QHelpContentModel11columnCountERK11QModelIndex@Qt_5 5.6.0~beta
  _ZNK17QHelpContentModel13contentItemAtERK11QModelIndex@Qt_5 5.6.0~beta
@@ -266,49 +218,33 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK17QHelpSearchResult5titleEv@Qt_5 5.9.0~beta3
  _ZNK17QHelpSearchResult7snippetEv@Qt_5 5.9.0~beta3
  _ZNK18QHelpContentWidget10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK18QHelpDataIndexItemeqERKS_@Qt_5 5.6.0~beta
- _ZNK20QHelpDataContentItem5titleEv@Qt_5 5.6.0~beta
- _ZNK20QHelpDataContentItem8childrenEv@Qt_5 5.6.0~beta
- _ZNK20QHelpDataContentItem9referenceEv@Qt_5 5.6.0~beta
- _ZNK22QHelpDataFilterSection16filterAttributesEv@Qt_5 5.6.0~beta
- _ZNK22QHelpDataFilterSection5filesEv@Qt_5 5.6.0~beta
- _ZNK22QHelpDataFilterSection7indicesEv@Qt_5 5.6.0~beta
- _ZNK22QHelpDataFilterSection8contentsEv@Qt_5 5.6.0~beta
  _ZNK22QHelpSearchQueryWidget10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK22QHelpSearchQueryWidget11searchInputEv@Qt_5 5.9.0
  _ZNK22QHelpSearchQueryWidget13isCompactModeEv@Qt_5 5.6.0~beta
  _ZNK22QHelpSearchQueryWidget5queryEv@Qt_5 5.6.0~beta
  _ZNK23QHelpSearchResultWidget10metaObjectEv@Qt_5 5.6.0~beta
  _ZTI11QHelpEngine@Qt_5 5.6.0~beta
- _ZTI14QHelpGenerator@Qt_5 5.6.0~beta
  _ZTI15QHelpEngineCore@Qt_5 5.6.0~beta
  _ZTI15QHelpIndexModel@Qt_5 5.6.0~beta
  _ZTI16QHelpIndexWidget@Qt_5 5.6.0~beta
- _ZTI16QHelpProjectData@Qt_5 5.6.0~beta
  _ZTI17QHelpContentModel@Qt_5 5.6.0~beta
  _ZTI17QHelpSearchEngine@Qt_5 5.6.0~beta
  _ZTI18QHelpContentWidget@Qt_5 5.6.0~beta
- _ZTI18QHelpDataInterface@Qt_5 5.6.0~beta
  _ZTI22QHelpSearchQueryWidget@Qt_5 5.6.0~beta
  _ZTI23QHelpSearchResultWidget@Qt_5 5.6.0~beta
  _ZTS11QHelpEngine@Qt_5 5.6.0~beta
- _ZTS14QHelpGenerator@Qt_5 5.6.0~beta
  _ZTS15QHelpEngineCore@Qt_5 5.6.0~beta
  _ZTS15QHelpIndexModel@Qt_5 5.6.0~beta
  _ZTS16QHelpIndexWidget@Qt_5 5.6.0~beta
- _ZTS16QHelpProjectData@Qt_5 5.6.0~beta
  _ZTS17QHelpContentModel@Qt_5 5.6.0~beta
  _ZTS17QHelpSearchEngine@Qt_5 5.6.0~beta
  _ZTS18QHelpContentWidget@Qt_5 5.6.0~beta
- _ZTS18QHelpDataInterface@Qt_5 5.6.0~beta
  _ZTS22QHelpSearchQueryWidget@Qt_5 5.6.0~beta
  _ZTS23QHelpSearchResultWidget@Qt_5 5.6.0~beta
  _ZTV11QHelpEngine@Qt_5 5.6.0~beta
- _ZTV14QHelpGenerator@Qt_5 5.6.0~beta
  _ZTV15QHelpEngineCore@Qt_5 5.6.0~beta
  _ZTV15QHelpIndexModel@Qt_5 5.6.0~beta
  _ZTV16QHelpIndexWidget@Qt_5 5.6.0~beta
- _ZTV16QHelpProjectData@Qt_5 5.6.0~beta
  _ZTV17QHelpContentModel@Qt_5 5.6.0~beta
  _ZTV17QHelpSearchEngine@Qt_5 5.6.0~beta
  _ZTV18QHelpContentWidget@Qt_5 5.6.0~beta
