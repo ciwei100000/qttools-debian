@@ -7,6 +7,7 @@ qttools-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
     #921206).
   * Update .install files.
   * Update symbols files from the current build log.
+  * Use dh_missing instead of deprecated dh_install --fail-missing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 17:50:26 +0300
 

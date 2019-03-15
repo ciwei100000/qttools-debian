@@ -60,7 +60,7 @@ ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(no_qwebview_archs)))
 else
 	cp debian/qttools5-dev-tools.install.in debian/qttools5-dev-tools.install
 endif
-	dh_install --fail-missing
+	dh_install
 
 	install -D -p -m0644 src/assistant/assistant/images/assistant-128.png \
 		debian/qt5-assistant/usr/share/pixmaps/assistant-qt5.png
@@ -68,6 +68,9 @@ endif
 		debian/qttools5-dev-tools/usr/share/pixmaps/designer-qt5.png
 	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-128-32.png \
 		debian/qttools5-dev-tools/usr/share/pixmaps/linguist-qt5.png
+
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_link:
 	dh_link
