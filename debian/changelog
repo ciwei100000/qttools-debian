@@ -1,6 +1,5 @@
-qttools-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.12.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.2.
   * Enable qdoc build on kfreebsd-any and five mips* architectures (closes:
@@ -10,7 +9,7 @@ qttools-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Use dh_missing instead of deprecated dh_install --fail-missing.
   * Use a white list of architectures where Qt WebKit is available.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 17:50:26 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 26 Mar 2019 19:06:37 +0300
 
 qttools-opensource-src (5.11.3-4) unstable; urgency=medium
 
