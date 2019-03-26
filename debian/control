@@ -125,7 +125,7 @@ Architecture: any
 Multi-Arch: foreign
 Section: devel
 Depends: libqt5sql5-sqlite,
-         qdoc-qt5 (= ${binary:Version}) [amd64 arm64 armel armhf hurd-i386 i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64],
+         qdoc-qt5 (= ${binary:Version}) [amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-any mips mips64 mips64el mips64r6 mips64r6el mipsel mipsr6 mipsr6el powerpc ppc64 ppc64el s390x sparc64],
          qt5-assistant (= ${binary:Version}),
          qtchooser,
          ${misc:Depends},
