@@ -1,3 +1,10 @@
+qttools-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Apr 2019 15:33:03 +0300
+
 qttools-opensource-src (5.12.2-1) experimental; urgency=medium
 
   * New upstream release.
