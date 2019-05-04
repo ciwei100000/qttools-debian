@@ -5,6 +5,7 @@ qttools-opensource-src (5.12.3-2) UNRELEASED; urgency=medium
     packages. This will allow us to build-depend only on small qdoc,
     qhelpgenerator and qtattributionsscanner packages for building Qt docs,
     instead of the whole qttools5-dev-tools package.
+  * Update debian/libqt5designer5.symbols from arm64 build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 May 2019 21:45:24 +0300
 
