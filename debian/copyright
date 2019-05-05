@@ -19,9 +19,18 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
 License: LGPL-3 or GPL-2
 
 Files: src/assistant/help/*
+       src/assistant/qhelpgenerator/collectionconfigreader.*
+       src/assistant/qhelpgenerator/helpgenerator.*
+       src/assistant/qhelpgenerator/qhelpdatainterface*
+       src/assistant/qhelpgenerator/qhelpprojectdata*
        src/assistant/shared/*
        src/qdoc/clangcodeparser.*
-       src/shared/*
+       src/shared/deviceskin/*
+       src/shared/findwidget/*
+       src/shared/fontpanel/*
+       src/shared/qtgradienteditor/*
+       src/shared/qtpropertybrowser/*
+       src/shared/qttoolbardialog/*
        src/winrtrunner/*
 Copyright: 2016-2017 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
@@ -70,8 +79,19 @@ Files: examples/*
        src/designer/src/uitools/*
        src/linguist/linguist/doc/snippets/*
        src/shared/corecon/*
+       tests/auto/qdoc/qmlcomponentoutput/componentset/*.qml
 Copyright: 2016-2017 The Qt Company Ltd.
 License: BSD-3-clause
+
+Files: *.qdoc
+       *.qdoc.sample
+       src/qdoc/doc/examples/samples.qdocinc
+Copyright: 2016-2018 The Qt Company Ltd.
+License: GFDL-NIV-1.3
+
+Files: src/makeqpf/Blocks.txt
+Copyright: 1991-2006 Unicode, Inc.
+License: MIT-Unicode
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
@@ -175,17 +195,6 @@ License: LGPL-3
  On Debian systems, the complete text of the GNU Lesser General Public
  License version 3 can be found in /usr/share/common-licenses/LGPL-3.
 
-Files: *.qdoc
-Copyright: 2016-2018 The Qt Company Ltd.
-License: GFDL-NIV-1.3
-
-Files: src/designer/src/designer/doc/src/designer-manual.qdoc
-Copyright: 2005 Bjoern Bergstroem
-           2016 The Qt Company Ltd.
-License: GFDL-NIV-1.3
-
-Files: src/makeqpf/Blocks.txt
-Copyright: 1991-2006 Unicode, Inc.
 License: MIT-Unicode
  Permission is hereby granted, free of charge, to any person obtaining a copy of
  the Unicode data files and any associated documentation (the "Data Files") or
