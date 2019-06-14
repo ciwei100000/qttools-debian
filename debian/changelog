@@ -3,6 +3,7 @@ qttools-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Make qhelpgenerator-qt5 depend on libqt5sql5-sqlite.
+  * Bump Qt build-dependencies to 5.12.4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Jun 2019 21:07:36 +0300
 
