@@ -7,3 +7,8 @@ usr/lib/*/qt5/plugins/designer/libcontainerextension.so
 usr/lib/*/qt5/plugins/designer/libcustomwidgetplugin.so
 usr/lib/*/qt5/plugins/designer/libtaskmenuextension.so
 usr/lib/*/qt5/plugins/designer/libworldtimeclockplugin.so
+usr/share/qt5/doc/qtassistant/examples-manifest.xml
+usr/share/qt5/doc/qtdesigner/examples-manifest.xml
+usr/share/qt5/doc/qthelp/examples-manifest.xml
+usr/share/qt5/doc/qtlinguist/examples-manifest.xml
+usr/share/qt5/doc/qtuitools/examples-manifest.xml
