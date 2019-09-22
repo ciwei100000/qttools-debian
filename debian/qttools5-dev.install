@@ -145,10 +145,12 @@ usr/lib/*/libQt5DesignerComponents.prl
 usr/lib/*/libQt5DesignerComponents.so
 usr/lib/*/libQt5Help.prl
 usr/lib/*/libQt5Help.so
+usr/lib/*/libQt5UiPlugin.prl
 usr/lib/*/libQt5UiTools.a
 usr/lib/*/libQt5UiTools.prl
 usr/lib/*/pkgconfig/Qt5Designer.pc
 usr/lib/*/pkgconfig/Qt5Help.pc
+usr/lib/*/pkgconfig/Qt5UiPlugin.pc
 usr/lib/*/pkgconfig/Qt5UiTools.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_designer.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_help.pri
