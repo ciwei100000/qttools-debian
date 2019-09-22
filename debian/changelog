@@ -4,6 +4,7 @@ qttools-opensource-src (5.12.5-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update the list of architectures where Qt WebKit is available.
   * Bump Qt build-dependencies to 5.12.5.
+  * Drop some old (pre-Stretch) Breaks/Replaces.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 09 Aug 2019 17:02:24 -0700
 
