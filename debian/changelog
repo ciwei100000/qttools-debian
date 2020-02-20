@@ -1,8 +1,5 @@
 qttools-opensource-src (5.12.5-3) UNRELEASED; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Do not install libQt5UiTools.a, thanks Axel Kittenberger for the pointer.
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Feb 2020 10:18:46 -0300
 
 qttools-opensource-src (5.12.5-2) unstable; urgency=medium
