@@ -1,8 +1,11 @@
 usr/lib/qt5/bin/designer
 usr/lib/qt5/bin/lconvert
 usr/lib/qt5/bin/linguist
+usr/lib/qt5/bin/lprodump
 usr/lib/qt5/bin/lrelease
+usr/lib/qt5/bin/lrelease-pro
 usr/lib/qt5/bin/lupdate
+usr/lib/qt5/bin/lupdate-pro
 usr/lib/qt5/bin/pixeltool
 usr/lib/qt5/bin/qcollectiongenerator
 usr/lib/qt5/bin/qdbusviewer
