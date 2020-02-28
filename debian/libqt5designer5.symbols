@@ -1,10 +1,12 @@
-# SymbolsHelper-Confirmed: 5.12.5 amd64 hppa sh4 x32
+# SymbolsHelper-Confirmed: 5.14.1 amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.0
  Qt_5.12@Qt_5.12 5.12.0
+ Qt_5.13@Qt_5.13 5.14.1
+ Qt_5.14@Qt_5.14 5.14.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -212,7 +214,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN13QDesignerMenu11eventFilterEP7QObjectP6QEvent@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu11handleEventEP7QWidgetP6QEvent@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu11hideSubMenuEv@Qt_5 5.6.0~beta
- _ZN13QDesignerMenu11interactiveEb@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu11showSubMenuEP7QAction@Qt_5 5.6.0~beta
@@ -444,7 +445,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN16QDesignerMenuBar11actionEventEP12QActionEvent@Qt_5 5.6.0~beta
  _ZN16QDesignerMenuBar11eventFilterEP7QObjectP6QEvent@Qt_5 5.6.0~beta
  _ZN16QDesignerMenuBar11handleEventEP7QWidgetP6QEvent@Qt_5 5.6.0~beta
- _ZN16QDesignerMenuBar11interactiveEb@Qt_5 5.6.0~beta
  _ZN16QDesignerMenuBar11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN16QDesignerMenuBar11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN16QDesignerMenuBar11swapActionsEii@Qt_5 5.6.0~beta
@@ -574,8 +574,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal10CodeDialog10slotSaveAsEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal10CodeDialog11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal10CodeDialog11qt_metacastEPKc@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal10CodeDialog12generateCodeEPK28QDesignerFormWindowInterfaceP7QStringS5_@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal10CodeDialog14showCodeDialogEPK28QDesignerFormWindowInterfaceP7QWidgetP7QString@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal10CodeDialog11setMimeTypeERK7QString@Qt_5 5.14.1
+ _ZN18qdesigner_internal10CodeDialog12generateCodeEPK28QDesignerFormWindowInterfaceNS_11UicLanguageEP7QStringS6_@Qt_5 5.14.1
+ _ZN18qdesigner_internal10CodeDialog14showCodeDialogEPK28QDesignerFormWindowInterfaceNS_11UicLanguageEP7QWidgetP7QString@Qt_5 5.14.1
  _ZN18qdesigner_internal10CodeDialog15setFormFileNameERK7QString@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal10CodeDialog16staticMetaObjectE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal10CodeDialog17CodeDialogPrivateC1Ev@Qt_5 5.6.0~beta
@@ -903,6 +904,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal14FormWindowBase20resourceSetActivatedEP13QtResourceSetb@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase20triggerDefaultActionEP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase21addReloadablePropertyEP22QDesignerPropertySheeti@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal14FormWindowBase21setConnectSlotsByNameEb@Qt_5 5.14.1
  _ZN18qdesigner_internal14FormWindowBase21setLineTerminatorModeENS0_18LineTerminatorModeE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase22setDefaultDesignerGridERKNS_4GridE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase23createExtensionTaskMenuEP28QDesignerFormWindowInterfaceP7QObjectb@Qt_5 5.6.0~beta
@@ -1124,7 +1126,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17QDesignerMimeDataD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17QDesignerMimeDataD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17QDesignerMimeDataD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal17QDesignerTaskMenu10addToolBarEv@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal17QDesignerTaskMenu10addToolBarEN2Qt11ToolBarAreaE@Qt_5 5.14.1
  _ZN18qdesigner_internal17QDesignerTaskMenu11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17QDesignerTaskMenu11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal17QDesignerTaskMenu11setPropertyEP28QDesignerFormWindowInterfaceNS0_12PropertyModeERK7QStringRK8QVariant@Qt_5 5.6.0~beta
@@ -1302,15 +1304,13 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19PropertyListCommand11setOldValueERK8QVarianti@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand15restoreOldValueEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC1ERK7QStringP31QDesignerPropertySheetExtensioni@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC2ERK7QStringP31QDesignerPropertySheetExtensioni@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand19restoreDefaultValueEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand3addEP7QObjectRK7QString@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand4undoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand6updateEj@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommand8initListERK5QListIP7QObjectERK7QStringS3_@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal19PropertyListCommand8setValueE8QVariantbj@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal19PropertyListCommand8setValueERK8QVariantbj@Qt_5 5.14.1
  _ZN18qdesigner_internal19PropertyListCommandC1EP28QDesignerFormWindowInterfaceP12QUndoCommand@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19PropertyListCommandC2EP28QDesignerFormWindowInterfaceP12QUndoCommand@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal19QDesignerWidgetItem11eventFilterEP7QObjectP6QEvent@Qt_5 5.6.0~beta
@@ -1483,6 +1483,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22StyleSheetEditorDialog11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22StyleSheetEditorDialog11slotAddFontEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22StyleSheetEditorDialog12slotAddColorERK7QString@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal22StyleSheetEditorDialog13keyPressEventEP9QKeyEvent@Qt_5 5.14.1
  _ZN18qdesigner_internal22StyleSheetEditorDialog15slotAddGradientERK7QString@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22StyleSheetEditorDialog15slotAddResourceERK7QString@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal22StyleSheetEditorDialog15slotRequestHelpEv@Qt_5 5.6.0~beta
@@ -1732,7 +1733,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal6LayoutD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal6LayoutD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal6LayoutD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal6runUICERK7QStringR10QByteArrayRS0_@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal6runUICERK7QStringNS_11UicLanguageER10QByteArrayRS0_@Qt_5 5.14.1
  _ZN18qdesigner_internal8ItemDataC1EPK15QListWidgetItemb@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal8ItemDataC1EPK15QTreeWidgetItemi@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal8ItemDataC1EPK16QTableWidgetItemb@Qt_5 5.6.0~beta
@@ -2482,6 +2483,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlots4readER16QXmlStreamReader@Qt_5 5.6.0~beta
  _ZN8DomSlotsD1Ev@Qt_5 5.6.0~beta
  _ZN8DomSlotsD2Ev@Qt_5 5.6.0~beta
+ (optional=templinst)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Qt_5 5.14.1
+ (optional=templinst)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Qt_5 5.14.1
  _ZN9DomAction18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomAction19setElementAttributeERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomAction4readER16QXmlStreamReader@Qt_5 5.6.0~beta
@@ -2745,6 +2748,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK18qdesigner_internal14FormWindowBase13checkContentsEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase13deviceProfileEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase17deviceProfileNameEv@Qt_5 5.6.0~beta
+ _ZNK18qdesigner_internal14FormWindowBase18connectSlotsByNameEv@Qt_5 5.14.1
  _ZNK18qdesigner_internal14FormWindowBase18lineTerminatorModeEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase20resourceFileSaveModeEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase22useIdBasedTranslationsEv@Qt_5 5.11.0
