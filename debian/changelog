@@ -5,6 +5,7 @@ qttools-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.14.1.
   * Install new tools and development files.
   * Update symbols files from the current build log.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Feb 2020 10:18:46 -0300
 
