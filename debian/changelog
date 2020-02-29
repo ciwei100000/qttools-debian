@@ -8,6 +8,7 @@ qttools-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Update to debhelper compat level 12.
     - Switch to using debhelper-compat as a build dependency.
+  * Bump Standards-Version to 4.5.0, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Feb 2020 10:18:46 -0300
 
