@@ -6,6 +6,8 @@ qttools-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * Install new tools and development files.
   * Update symbols files from the current build log.
   * Update debian/copyright.
+  * Update to debhelper compat level 12.
+    - Switch to using debhelper-compat as a build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Feb 2020 10:18:46 -0300
 
