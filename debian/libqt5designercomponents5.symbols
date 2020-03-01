@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.14.1 amd64 arm64 i386 mips64el ppc64el s390x sparc64
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
 * Build-Depends-Package: qttools5-private-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
@@ -12,7 +12,8 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN19QDesignerComponents20createResourceEditorEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QDesignerComponents21createObjectInspectorEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QDesignerComponents22createSignalSlotEditorEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5_PRIVATE_API 5.6.0~beta
- (optional=templinst|arch=amd64)_ZN8QVariant8setValueI8QPaletteEEvRKT_@Qt_5_PRIVATE_API 5.14.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64el s390x sparc64)_ZN8QVariant8setValueI8QPaletteEEvRKT_@Qt_5_PRIVATE_API 5.14.1
+ (optional=templinst|arch=!amd64 !arm64 !i386)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Qt_5_PRIVATE_API 5.14.1
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5_PRIVATE_API 5.9.1
  _ZTI29QDesignerOptionsPageInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI34QDesignerFormEditorPluginInterface@Qt_5_PRIVATE_API 5.6.0~beta
