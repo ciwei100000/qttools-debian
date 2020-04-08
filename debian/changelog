@@ -1,3 +1,9 @@
+qttools-opensource-src (5.12.8-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Wed, 08 Apr 2020 16:18:52 +0300
+
 qttools-opensource-src (5.12.5-2build1) focal; urgency=medium
 
   * No-change rebuild for libgcc-s1 package name change.
