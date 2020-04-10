@@ -1,10 +1,10 @@
-qttools-opensource-src (5.12.8-0ubuntu1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.12.8-0ubuntu1) focal; urgency=medium
 
   * New upstream bugfix release.
   * Bump Qt build-dependencies to 5.12.8.
   * Enable qwebview designer plugin building on riscv64.
 
- -- Dmitry Shachnev <mitya57@ubuntu.com>  Wed, 08 Apr 2020 16:18:52 +0300
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Fri, 10 Apr 2020 19:26:04 +0300
 
 qttools-opensource-src (5.12.5-2build1) focal; urgency=medium
 
