@@ -1,3 +1,10 @@
+qttools-opensource-src (5.14.2-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Apr 2020 13:14:33 +0300
+
 qttools-opensource-src (5.14.1-2) experimental; urgency=medium
 
   * Fix qdoc handling of -isystem option.
