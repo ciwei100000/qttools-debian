@@ -1,3 +1,9 @@
+qttools-opensource-src (5.14.2-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Enable qdoc building on riscv64.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sat, 16 May 2020 20:57:03 +0300
+
 qttools-opensource-src (5.14.2-1) experimental; urgency=medium
 
   * New upstream release.
