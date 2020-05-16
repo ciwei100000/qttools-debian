@@ -1,4 +1,4 @@
-qttools-opensource-src (5.14.2-1ubuntu1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.14.2-1ubuntu1) groovy; urgency=medium
 
   * Enable qdoc building on riscv64.
 
