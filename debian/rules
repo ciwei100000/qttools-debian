@@ -14,11 +14,6 @@ qwebview_archs := alpha amd64 arm64 armel armhf i386 mips64el mipsel ppc64 ppc64
 %:
 	dh $@ --with pkgkde_symbolshelper
 
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -fv .qmake.cache
-	rm -fv debian/qttools5-dev-tools.install
-
 build-doc-tools:
 	# Build qdoc, qhelpgenerator and qtattributionsscanner tools
 	cd src; qmake CONFIG+=disable_external_rpath DEFINES+=QDOC_PASS_ISYSTEM
