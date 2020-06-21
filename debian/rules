@@ -46,6 +46,11 @@ ifeq (,$(filter $(DEB_HOST_ARCH),$(qwebview_archs)))
 else
 	cp debian/qttools5-dev-tools.install.in debian/qttools5-dev-tools.install
 endif
+ifeq (,$(filter qdoc-qt5,$(shell dh_listpackages)))
+	grep -v Qt5DocToolsConfig debian/qttools5-dev.install.in > debian/qttools5-dev.install
+else
+	cp debian/qttools5-dev.install.in debian/qttools5-dev.install
+endif
 	dh_install
 
 	install -D -p -m0644 src/assistant/assistant/images/assistant-128.png \

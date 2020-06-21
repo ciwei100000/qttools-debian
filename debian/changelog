@@ -4,6 +4,7 @@ qttools-opensource-src (5.14.2-2) UNRELEASED; urgency=medium
   * Update list of architectures where clang is available: remove
     kfreebsd-any, add riscv64.
   * Use debian/clean instead of overriding dh_auto_clean.
+  * Do not install Qt5DocToolsConfig*.cmake when qdoc is not built.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jun 2020 14:38:44 +0300
 
