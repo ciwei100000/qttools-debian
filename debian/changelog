@@ -1,5 +1,7 @@
 qttools-opensource-src (5.14.2-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update symbols files for GCC 10 (closes: #966953).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 Aug 2020 14:07:59 +0300
 

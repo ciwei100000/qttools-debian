@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64
+# SymbolsHelper-Confirmed: 5.14.2 amd64 powerpc
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -2483,8 +2483,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlots4readER16QXmlStreamReader@Qt_5 5.6.0~beta
  _ZN8DomSlotsD1Ev@Qt_5 5.6.0~beta
  _ZN8DomSlotsD2Ev@Qt_5 5.6.0~beta
- (optional=templinst)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Qt_5 5.14.1
- (optional=templinst)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Qt_5 5.14.1
  _ZN9DomAction18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomAction19setElementAttributeERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomAction4readER16QXmlStreamReader@Qt_5 5.6.0~beta
@@ -3196,9 +3194,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- (optional=templinst)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Qt_5 5.6.0~beta
- (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Qt_5 5.6.0~beta
- (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.9.1
  _ZTI12QFormBuilder@Qt_5 5.6.0~beta
  _ZTI12QTextBuilder@Qt_5 5.6.0~beta
  _ZTI13QDesignerMenu@Qt_5 5.6.0~beta
