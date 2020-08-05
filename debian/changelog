@@ -1,3 +1,8 @@
+qttools-opensource-src (5.14.2-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2020 11:26:09 +0300
+
 qttools-opensource-src (5.14.2-3) unstable; urgency=medium
 
   * Update symbols files for GCC 10 (closes: #966953).
