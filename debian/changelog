@@ -1,3 +1,9 @@
+qttools-opensource-src (5.14.2-3-c1) unstable; urgency=medium
+
+  * Remove symbols files
+
+ -- ciwei100000 <ciwei100000@gmail.com>  Sat, 15 Aug 2020 05:06:00 -0700
+
 qttools-opensource-src (5.14.2-3) unstable; urgency=medium
 
   * Update symbols files for GCC 10 (closes: #966953).
