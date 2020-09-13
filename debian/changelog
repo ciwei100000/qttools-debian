@@ -1,6 +1,7 @@
-qttools-opensource-src (5.14.2-4) UNRELEASED; urgency=medium
+qttools-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
+  * New upstream release.
   * Fix Lintian wildcard-matches-nothing-in-dep5-copyright warning by
     swapping two debian/copyright entries.
 
