@@ -60,9 +60,6 @@ endif
 	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-128-32.png \
 		debian/qttools5-dev-tools/usr/share/pixmaps/linguist-qt5.png
 
-override_dh_missing:
-	dh_missing --fail-missing
-
 override_dh_link:
 	dh_link
 	ls debian/qttools5-dev-tools/usr/lib/qt5/bin | xargs -t -I {} \
