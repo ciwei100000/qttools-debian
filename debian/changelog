@@ -2,14 +2,15 @@ qttools-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
-  * Fix Lintian wildcard-matches-nothing-in-dep5-copyright warning by
-    swapping two debian/copyright entries.
   * Bump Qt build-dependencies to 5.15.1.
   * Update symbols files from buildds’ logs.
   * Update install files for the new release.
   * Update to debhelper compat level 13.
     - Drop dh_missing override, --fail-missing is now default behavior.
     - Use ${DEB_HOST_MULTIARCH} substitution in the install files.
+  * Update debian/copyright.
+    - Fix Lintian wildcard-matches-nothing-in-dep5-copyright warning by
+      swapping two entries.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2020 11:26:09 +0300
 

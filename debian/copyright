@@ -18,6 +18,12 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2014-2020 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2
 
+Files: *.qdoc
+       *.qdoc.sample
+       src/qdoc/doc/examples/samples.qdocinc
+Copyright: 2016-2020 The Qt Company Ltd.
+License: GFDL-NIV-1.3
+
 Files: src/assistant/help/*
        src/assistant/qhelpgenerator/collectionconfigreader.*
        src/assistant/qhelpgenerator/helpgenerator.*
@@ -32,7 +38,7 @@ Files: src/assistant/help/*
        src/shared/qtpropertybrowser/*
        src/shared/qttoolbardialog/*
        src/winrtrunner/*
-Copyright: 2016-2019 The Qt Company Ltd.
+Copyright: 2016-2020 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: src/linguist/lupdate/main.cpp
@@ -58,7 +64,8 @@ Files: tests/auto/cmake/test_uiplugin_module/my_designer_plugin.cpp
 Copyright: 2016 Stephen Kelly <steveire@gmail.com>
 License: GPL-3 with Qt-1.0 exception
 
-Files: src/qdoc/xmlgenerator.*
+Files: src/qdoc/docbookgenerator.*
+       src/qdoc/xmlgenerator.*
 Copyright: 2019 Thibaut Cuvelier
 License: GPL-3 with Qt-1.0 exception
 
@@ -75,12 +82,6 @@ Copyright: 2001, 2003 Free Software Foundation, Inc.
            2002, 2003, 2004 Thomas Diehl, Stephan Johach, Thomas Reitelbach
 License: GPL-2+
 
-Files: *.qdoc
-       *.qdoc.sample
-       src/qdoc/doc/examples/samples.qdocinc
-Copyright: 2016-2019 The Qt Company Ltd.
-License: GFDL-NIV-1.3
-
 Files: examples/*
        src/assistant/assistant/doc/snippets/*
        src/assistant/help/doc/snippets/*
@@ -89,7 +90,7 @@ Files: examples/*
        src/designer/src/uitools/*
        src/linguist/linguist/doc/snippets/*
        src/shared/corecon/*
-       tests/auto/qdoc/generatedoutput/qml/componentset/*.qml
+       tests/auto/qdoc/generatedoutput/testdata/qml/componentset/*.qml
 Copyright: 2016-2017 The Qt Company Ltd.
 License: BSD-3-clause
 
