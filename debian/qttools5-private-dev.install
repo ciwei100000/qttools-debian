@@ -86,12 +86,15 @@ usr/include/*/qt5/QtDesigner/*/QtDesigner/private/widgetdatabase_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/widgetfactory_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/zoomwidget_p.h
 usr/include/*/qt5/QtDesignerComponents/*/QtDesignerComponents/private/lib_pch.h
+usr/include/*/qt5/QtHelp/*/QtHelp/private/qfilternamedialog_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpcollectionhandler_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpdbreader_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpengine_p.h
+usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpfiltersettings_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexreader_default_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexreader_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexwriter_default_p.h
+usr/include/*/qt5/QtHelp/*/QtHelp/private/qoptionswidget_p.h
 usr/include/*/qt5/QtUiTools/*/QtUiTools/private/quiloader_p.h
 usr/lib/*/qt5/mkspecs/modules/qt_lib_designer_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_designercomponents_private.pri
