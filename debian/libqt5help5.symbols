@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.2 amd64 powerpc
+# SymbolsHelper-Confirmed: 5.14.2 amd64 m68k powerpc ppc64
 libQt5Help.so.5 libqt5help5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -71,7 +71,11 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN15QHelpFilterDataC1EOS_@Qt_5 5.14.1
  _ZN15QHelpFilterDataC1ERKS_@Qt_5 5.14.1
  _ZN15QHelpFilterDataC1Ev@Qt_5 5.14.1
+ (arch=m68k ppc64)_ZN15QHelpFilterDataC2EOS_@Qt_5 5.14.2
+ (arch=m68k ppc64)_ZN15QHelpFilterDataC2ERKS_@Qt_5 5.14.2
+ (arch=m68k ppc64)_ZN15QHelpFilterDataC2Ev@Qt_5 5.14.2
  _ZN15QHelpFilterDataD1Ev@Qt_5 5.14.1
+ (arch=m68k ppc64)_ZN15QHelpFilterDataD2Ev@Qt_5 5.14.2
  _ZN15QHelpFilterDataaSEOS_@Qt_5 5.14.1
  _ZN15QHelpFilterDataaSERKS_@Qt_5 5.14.1
  _ZN15QHelpIndexModel11createIndexERK7QString@Qt_5 5.6.0~beta
@@ -169,7 +173,11 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN19QCompressedHelpInfoC1EOS_@Qt_5 5.14.1
  _ZN19QCompressedHelpInfoC1ERKS_@Qt_5 5.14.1
  _ZN19QCompressedHelpInfoC1Ev@Qt_5 5.14.1
+ (arch=m68k ppc64)_ZN19QCompressedHelpInfoC2EOS_@Qt_5 5.14.2
+ (arch=m68k ppc64)_ZN19QCompressedHelpInfoC2ERKS_@Qt_5 5.14.2
+ (arch=m68k ppc64)_ZN19QCompressedHelpInfoC2Ev@Qt_5 5.14.2
  _ZN19QCompressedHelpInfoD1Ev@Qt_5 5.14.1
+ (arch=m68k ppc64)_ZN19QCompressedHelpInfoD2Ev@Qt_5 5.14.2
  _ZN19QCompressedHelpInfoaSEOS_@Qt_5 5.14.1
  _ZN19QCompressedHelpInfoaSERKS_@Qt_5 5.14.1
  _ZN22QHelpSearchQueryWidget11changeEventEP6QEvent@Qt_5 5.6.0~beta
