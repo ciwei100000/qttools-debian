@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.2 amd64 powerpc
+# SymbolsHelper-Confirmed: 5.15.1 amd64 i386
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -7,6 +7,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  Qt_5.12@Qt_5.12 5.12.0
  Qt_5.13@Qt_5.13 5.14.1
  Qt_5.14@Qt_5.14 5.14.1
+ Qt_5.15@Qt_5.15 5.15.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -522,8 +523,13 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17QExtensionManagerD1Ev@Qt_5 5.6.0~beta
  _ZN17QExtensionManagerD2Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra10applyBuddyERK7QStringNS_9BuddyModeEP6QLabel@Qt_5 5.6.0~beta
+ _ZN17QFormBuilderExtra10setupBrushEPK8DomBrush@Qt_5 5.15.1
+ _ZN17QFormBuilderExtra11loadPaletteEPK10DomPalette@Qt_5 5.15.1
+ _ZN17QFormBuilderExtra11savePaletteERK8QPalette@Qt_5 5.15.1
+ _ZN17QFormBuilderExtra14saveColorGroupERK8QPaletteNS0_10ColorGroupE@Qt_5 5.15.1
  _ZN17QFormBuilderExtra14setTextBuilderEP12QTextBuilder@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra15setParentWidgetERK8QPointerI7QWidgetE@Qt_5 5.6.0~beta
+ _ZN17QFormBuilderExtra15setupColorGroupEP8QPaletteNS0_10ColorGroupEPK13DomColorGroup@Qt_5 5.15.1
  _ZN17QFormBuilderExtra16CustomWidgetDataC1EPK15DomCustomWidget@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra16CustomWidgetDataC1Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra16CustomWidgetDataC2EPK15DomCustomWidget@Qt_5 5.6.0~beta
@@ -531,6 +537,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17QFormBuilderExtra16boxLayoutStretchEPK10QBoxLayout@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra16clearTextBuilderEv@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra16msgInvalidUiFileEv@Qt_5 5.11.2
+ _ZN17QFormBuilderExtra17setPixmapPropertyEP11DomPropertyRK5QPairI7QStringS3_E@Qt_5 5.15.1
  _ZN17QFormBuilderExtra18setResourceBuilderEP16QResourceBuilder@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra19setBoxLayoutStretchERK7QStringP10QBoxLayout@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra20clearResourceBuilderEv@Qt_5 5.6.0~beta
@@ -553,6 +560,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17QFormBuilderExtra33clearGridLayoutColumnMinimumWidthEP11QGridLayout@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra5clearEv@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra6readUiEP9QIODevice@Qt_5 5.11.2
+ _ZN17QFormBuilderExtra9saveBrushERK6QBrush@Qt_5 5.15.1
  _ZN17QFormBuilderExtraC1Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtraC2Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtraD1Ev@Qt_5 5.6.0~beta
@@ -662,7 +670,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal11OrderDialogD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal11OrderDialogD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal11OrderDialogD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal12ActionEditor10editActionEP7QAction@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal12ActionEditor10editActionEP7QActioni@Qt_5 5.15.1
  _ZN18qdesigner_internal12ActionEditor10slotDeleteEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal12ActionEditor11copyActionsEP28QDesignerFormWindowInterfaceRK5QListIP7QActionE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal12ActionEditor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
@@ -671,7 +679,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal12ActionEditor12saveSettingsEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal12ActionEditor12slotViewModeEP7QAction@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal12ActionEditor13deleteActionsEP28QDesignerFormWindowInterfaceRK5QListIP7QActionE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal12ActionEditor13itemActivatedEP7QAction@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal12ActionEditor13itemActivatedEP7QActioni@Qt_5 5.15.1
  _ZN18qdesigner_internal12ActionEditor13setFormWindowEP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal12ActionEditor13slotNewActionEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal12ActionEditor14unmanageActionEP7QAction@Qt_5 5.6.0~beta
@@ -1522,7 +1530,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal23QDesignerSharedSettings14setNewFormSizeERK5QSize@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerSharedSettings14setZoomEnabledEb@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerSharedSettings15setFormTemplateERK7QString@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal23QDesignerSharedSettings17setDeviceProfilesERK5QListINS_13DeviceProfileEE@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal23QDesignerSharedSettings17setDeviceProfilesERK7QVectorINS_13DeviceProfileEE@Qt_5 5.15.1
  _ZN18qdesigner_internal23QDesignerSharedSettings18setUserDeviceSkinsERK11QStringList@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal23QDesignerSharedSettings19setObjectNamingModeENS_16ObjectNamingModeE@Qt_5 5.9.0~beta3
  _ZN18qdesigner_internal23QDesignerSharedSettings20setFormTemplatePathsERK11QStringList@Qt_5 5.6.0~beta
@@ -1559,8 +1567,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24ChangeLayoutItemGeometryC2EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24DeleteConnectionsCommand4redoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24DeleteConnectionsCommand4undoEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteConnectionsCommandC1EPNS_14ConnectionEditERK5QListIPNS_10ConnectionEE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal24DeleteConnectionsCommandC2EPNS_14ConnectionEditERK5QListIPNS_10ConnectionEE@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal24DeleteConnectionsCommandC1EPNS_14ConnectionEditERK7QVectorIPNS_10ConnectionEE@Qt_5 5.15.1
+ _ZN18qdesigner_internal24DeleteConnectionsCommandC2EPNS_14ConnectionEditERK7QVectorIPNS_10ConnectionEE@Qt_5 5.15.1
  _ZN18qdesigner_internal24NewFormWidgetFormBuilder19createCustomWidgetsEP16DomCustomWidgets@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24NewFormWidgetFormBuilderC1EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal24NewFormWidgetFormBuilderC2EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Qt_5 5.6.0~beta
@@ -1649,7 +1657,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal26QDesignerFormWindowManagerD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal26QDesignerFormWindowManagerD2Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommand15updateSelectionEv@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal28PromoteToCustomWidgetCommand4initERK5QListI8QPointerI7QWidgetEERK7QString@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal28PromoteToCustomWidgetCommand4initERK7QVectorI8QPointerI7QWidgetEERK7QString@Qt_5 5.15.1
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommand4redoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommand4undoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
@@ -1676,7 +1684,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal29AddContainerWidgetPageCommandD0Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal29AddContainerWidgetPageCommandD1Ev@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal29AddContainerWidgetPageCommandD2Ev@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal29DemoteFromCustomWidgetCommand4initERK5QListI8QPointerI7QWidgetEE@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal29DemoteFromCustomWidgetCommand4initERK7QVectorI8QPointerI7QWidgetEE@Qt_5 5.15.1
  _ZN18qdesigner_internal29DemoteFromCustomWidgetCommand4redoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal29DemoteFromCustomWidgetCommand4undoEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal29DemoteFromCustomWidgetCommandC1EP28QDesignerFormWindowInterface@Qt_5 5.6.0~beta
@@ -1989,6 +1997,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN22QDesignerPropertySheet19clearFakePropertiesEv@Qt_5 5.6.0~beta
  _ZN22QDesignerPropertySheet20objectTypeFromObjectEPK7QObject@Qt_5 5.6.0~beta
  _ZN22QDesignerPropertySheet20propertyTypeFromNameERK7QString@Qt_5 5.6.0~beta
+ _ZN22QDesignerPropertySheet21objectFlagsFromObjectEPK7QObject@Qt_5 5.15.1
  _ZN22QDesignerPropertySheet21removeDynamicPropertyEi@Qt_5 5.6.0~beta
  _ZN22QDesignerPropertySheet32internalDynamicPropertiesEnabledEv@Qt_5 5.6.0~beta
  _ZN22QDesignerPropertySheet35setInternalDynamicPropertiesEnabledEb@Qt_5 5.6.0~beta
@@ -2004,6 +2013,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet5resetEi@Qt_5 5.6.0~beta
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Qt_5 5.6.0~beta
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Qt_5 5.6.0~beta
+ _ZN24QDockWidgetPropertySheet11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.15.1
+ _ZN24QDockWidgetPropertySheet11qt_metacastEPKc@Qt_5 5.15.1
+ _ZN24QDockWidgetPropertySheet16staticMetaObjectE@Qt_5 5.15.1
  _ZN25DomPropertySpecifications17setElementTooltipERK7QVectorIP18DomPropertyToolTipE@Qt_5 5.10.1
  _ZN25DomPropertySpecifications37setElementStringpropertyspecificationERK7QVectorIP30DomStringPropertySpecificationE@Qt_5 5.10.1
  _ZN25DomPropertySpecifications4readER16QXmlStreamReader@Qt_5 5.6.0~beta
@@ -3065,6 +3077,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK22QDesignerPropertySheet9isVisibleEi@Qt_5 5.6.0~beta
  _ZNK23QTabWidgetPropertySheet8propertyEi@Qt_5 5.6.0~beta
  _ZNK23QTabWidgetPropertySheet9isEnabledEi@Qt_5 5.6.0~beta
+ _ZNK24QDockWidgetPropertySheet10metaObjectEv@Qt_5 5.15.1
+ _ZNK24QDockWidgetPropertySheet9isEnabledEi@Qt_5 5.15.1
  _ZNK25DomPropertySpecifications5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK25QDesignerCustomWidgetData10pluginPathEv@Qt_5 5.6.0~beta
  _ZNK25QDesignerCustomWidgetData10xmlExtendsEv@Qt_5 5.6.0~beta
@@ -3217,6 +3231,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTI22QDesignerPluginManager@Qt_5 5.6.0~beta
  _ZTI22QDesignerPropertySheet@Qt_5 5.6.0~beta
  _ZTI23QTabWidgetPropertySheet@Qt_5 5.6.0~beta
+ _ZTI24QDockWidgetPropertySheet@Qt_5 5.15.1
  _ZTI25QDesignerDnDItemInterface@Qt_5 5.6.0~beta
  _ZTI25QStackedWidgetEventFilter@Qt_5 5.6.0~beta
  _ZTI26QDesignerMetaEnumInterface@Qt_5 5.6.0~beta
@@ -3365,6 +3380,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTS22QDesignerPluginManager@Qt_5 5.6.0~beta
  _ZTS22QDesignerPropertySheet@Qt_5 5.6.0~beta
  _ZTS23QTabWidgetPropertySheet@Qt_5 5.6.0~beta
+ _ZTS24QDockWidgetPropertySheet@Qt_5 5.15.1
  _ZTS25QDesignerDnDItemInterface@Qt_5 5.6.0~beta
  _ZTS25QStackedWidgetEventFilter@Qt_5 5.6.0~beta
  _ZTS26QDesignerMetaEnumInterface@Qt_5 5.6.0~beta
@@ -3513,6 +3529,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTV22QDesignerPluginManager@Qt_5 5.6.0~beta
  _ZTV22QDesignerPropertySheet@Qt_5 5.6.0~beta
  _ZTV23QTabWidgetPropertySheet@Qt_5 5.6.0~beta
+ _ZTV24QDockWidgetPropertySheet@Qt_5 5.15.1
  _ZTV25QStackedWidgetEventFilter@Qt_5 5.6.0~beta
  _ZTV26QDesignerMetaEnumInterface@Qt_5 5.6.0~beta
  _ZTV27QDesignerDialogGuiInterface@Qt_5 5.6.0~beta
@@ -3685,6 +3702,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to QDesignerResourceBrowserInterface::~QDesignerResourceBrowserInterface()@Qt_5" 5.6.0~beta
  (c++)"non-virtual thunk to QDesignerWidget::~QDesignerWidget()@Qt_5" 5.6.0~beta
  (c++)"non-virtual thunk to QDesignerWidgetBoxInterface::~QDesignerWidgetBoxInterface()@Qt_5" 5.6.0~beta
+ (c++)"non-virtual thunk to QDockWidgetPropertySheet::isEnabled(int) const@Qt_5" 5.15.1
  (c++)"non-virtual thunk to QExtensionFactory::extension(QObject*, QString const&) const@Qt_5" 5.6.0~beta
  (c++)"non-virtual thunk to QExtensionManager::extension(QObject*, QString const&) const@Qt_5" 5.6.0~beta
  (c++)"non-virtual thunk to QExtensionManager::registerExtensions(QAbstractExtensionFactory*, QString const&)@Qt_5" 5.6.0~beta
