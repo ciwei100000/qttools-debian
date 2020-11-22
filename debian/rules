@@ -53,12 +53,25 @@ else
 endif
 	dh_install
 
+	# assistant icons
 	install -D -p -m0644 src/assistant/assistant/images/assistant-128.png \
-		debian/qt5-assistant/usr/share/pixmaps/assistant-qt5.png
+		debian/qt5-assistant/usr/share/icons/hicolor/128x128/apps/assistant-qt5.png
+	install -D -p -m0644 src/assistant/assistant/images/assistant.png \
+		debian/qt5-assistant/usr/share/icons/hicolor/32x32/apps/assistant-qt5.png
+	# designer icons
 	install -D -p -m0644 src/designer/src/designer/images/designer.png \
-		debian/qttools5-dev-tools/usr/share/pixmaps/designer-qt5.png
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/128x128/apps/designer-qt5.png
+	# linguist icons
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-16-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/16x16/apps/linguist-qt5.png
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-32-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/32x32/apps/linguist-qt5.png
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-48-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/48x48/apps/linguist-qt5.png
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-64-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/64x64/apps/linguist-qt5.png
 	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-128-32.png \
-		debian/qttools5-dev-tools/usr/share/pixmaps/linguist-qt5.png
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/128x128/apps/linguist-qt5.png
 
 override_dh_link:
 	dh_link
