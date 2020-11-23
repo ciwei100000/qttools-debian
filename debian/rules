@@ -40,6 +40,10 @@ endif
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
+execute_after_dh_auto_install-arch:
+	# Reproducible builds: remove build path from the prl files.
+	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libQt5*.prl
+
 override_dh_install:
 ifeq (,$(filter $(DEB_HOST_ARCH),$(qwebview_archs)))
 	grep -v qwebview debian/qttools5-dev-tools.install.in >> debian/qttools5-dev-tools.install
