@@ -89,7 +89,6 @@ Files: examples/*
        src/designer/src/lib/uilib/*
        src/designer/src/uitools/*
        src/linguist/linguist/doc/snippets/*
-       src/shared/corecon/*
        tests/auto/qdoc/generatedoutput/testdata/qml/componentset/*.qml
 Copyright: 2016-2017 The Qt Company Ltd.
 License: BSD-3-clause

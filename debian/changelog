@@ -7,6 +7,7 @@ qttools-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.2.
+  * Minor debian/copyright update.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Nov 2020 13:10:25 +0100
 
