@@ -1,5 +1,8 @@
 qttools-opensource-src (5.15.2-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Add qdbus dummy transitional package for users upgrading from Qt 4
+    (closes: #969280).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 Nov 2020 21:37:27 +0300
 

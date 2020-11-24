@@ -62,6 +62,17 @@ Description: Qt 5 D-Bus tool
  This package contains qdbus, a command-line tool interface to D-Bus that uses
  the QtDBus library.
 
+Package: qdbus
+Architecture: all
+Section: oldlibs
+Depends: qdbus-qt5, ${misc:Depends}
+Description: Qt 5 D-Bus tool — dummy transitional package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package is a dummy transitional package for users upgrading from
+ Qt 4 to Qt 5. It can be safely removed.
+
 Package: qdoc-qt5
 Architecture: amd64 arm64 armel armhf hurd-i386 i386 mips mips64 mips64el mips64r6 mips64r6el mipsel mipsr6 mipsr6el powerpc ppc64 ppc64el riscv64 s390x sparc64
 Multi-Arch: foreign
