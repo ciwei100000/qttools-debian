@@ -1,4 +1,4 @@
-qttools-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.15.2-1) experimental; urgency=medium
 
   [ Pino Toscano ]
   * Ship all the available icons of assistant, designer, and linguist; ship them
@@ -10,7 +10,7 @@ qttools-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
   * Minor debian/copyright update.
   * Remove build path from .prl files for reproducibility.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Nov 2020 13:10:25 +0100
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 24 Nov 2020 15:09:55 +0300
 
 qttools-opensource-src (5.15.1-2) unstable; urgency=medium
 
