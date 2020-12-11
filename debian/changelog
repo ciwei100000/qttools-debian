@@ -1,12 +1,12 @@
-qttools-opensource-src (5.15.2-3) UNRELEASED; urgency=medium
+qttools-opensource-src (5.15.2-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add a patch for qhelpgenerator to make lastModified field honor
     the SOURCE_DATE_EPOCH environment variable (closes: #875847).
     Thanks to Kai Pastor!
   * Bump Standards-Version to 4.5.1, no changes needed.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 Dec 2020 18:18:27 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Dec 2020 11:32:27 +0300
 
 qttools-opensource-src (5.15.2-2) experimental; urgency=medium
 
