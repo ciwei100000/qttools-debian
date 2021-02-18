@@ -3,7 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-include /usr/share/dpkg/architecture.mk
+include /usr/share/dpkg/default.mk
 
 export QT_SELECT := qt5
 export LLVM_INSTALL_DIR := $(shell llvm-config --prefix)
@@ -88,3 +88,7 @@ override_dh_link:
 	dh_link -pqt5-assistant usr/lib/qt5/bin/assistant usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/assistant
 
 override_dh_auto_test-indep:
+
+override_dh_gencontrol:
+	dh_gencontrol -p qdbus -- -v4:$(DEB_VERSION)
+	dh_gencontrol --remaining-packages

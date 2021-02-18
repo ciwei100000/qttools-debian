@@ -1,5 +1,7 @@
 qttools-opensource-src (5.15.2-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Add 4: epoch to qdbus transitional package (closes: #983018).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Feb 2021 20:05:09 +0300
 
