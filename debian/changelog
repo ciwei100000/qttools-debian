@@ -1,5 +1,7 @@
 qttools-opensource-src (5.15.2-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Make qdbus transitional package Multi-Arch: foreign (closes: #983560).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2021 14:59:01 +0300
 

@@ -64,6 +64,7 @@ Description: Qt 5 D-Bus tool
 
 Package: qdbus
 Architecture: all
+Multi-Arch: foreign
 Section: oldlibs
 Depends: qdbus-qt5, ${misc:Depends}
 Description: Qt 5 D-Bus tool — dummy transitional package
