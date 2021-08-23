@@ -1,3 +1,9 @@
+qttools-opensource-src (5.15.2-5c1) unstable; urgency=medium
+
+  * Merge 'debian/5.15.2-5'
+
+ -- Xuqing Liu <ciwei100000@gmail.com>  Tue, 24 Aug 2021 02:41:11 -0700
+
 qttools-opensource-src (5.15.2-5) unstable; urgency=medium
 
   * Make qdbus transitional package Multi-Arch: foreign (closes: #983560).
