@@ -1,3 +1,69 @@
+qttools-opensource-src (5.15.2-5) unstable; urgency=medium
+
+  * Make qdbus transitional package Multi-Arch: foreign (closes: #983560).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 26 Feb 2021 15:03:50 +0300
+
+qttools-opensource-src (5.15.2-4) unstable; urgency=medium
+
+  * Add 4: epoch to qdbus transitional package (closes: #983018).
+  * Update debian/watch: use format 4, and track only 5.15.x releases.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 19 Feb 2021 15:24:42 +0300
+
+qttools-opensource-src (5.15.2-3) unstable; urgency=medium
+
+  * Add a patch for qhelpgenerator to make lastModified field honor
+    the SOURCE_DATE_EPOCH environment variable (closes: #875847).
+    Thanks to Kai Pastor!
+  * Bump Standards-Version to 4.5.1, no changes needed.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Dec 2020 11:32:27 +0300
+
+qttools-opensource-src (5.15.2-2) experimental; urgency=medium
+
+  * Add qdbus dummy transitional package for users upgrading from Qt 4
+    (closes: #969280).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 26 Nov 2020 21:02:14 +0300
+
+qttools-opensource-src (5.15.2-1) experimental; urgency=medium
+
+  [ Pino Toscano ]
+  * Ship all the available icons of assistant, designer, and linguist; ship them
+    in the global hicolor icon theme rather than the legacy pixmaps location.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.2.
+  * Minor debian/copyright update.
+  * Remove build path from .prl files for reproducibility.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 24 Nov 2020 15:09:55 +0300
+
+qttools-opensource-src (5.15.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:54:16 +0300
+
+qttools-opensource-src (5.15.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.1.
+  * Update symbols files from buildds’ logs.
+  * Update install files for the new release.
+  * Update to debhelper compat level 13.
+    - Drop dh_missing override, --fail-missing is now default behavior.
+    - Use ${DEB_HOST_MULTIARCH} substitution in the install files.
+  * Update debian/copyright.
+    - Fix Lintian wildcard-matches-nothing-in-dep5-copyright warning by
+      swapping two entries.
+  * Update symbols files from the current build logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 14 Sep 2020 19:07:08 +0300
+
 qttools-opensource-src (5.14.2-3-c1) unstable; urgency=medium
 
   * Remove symbols files

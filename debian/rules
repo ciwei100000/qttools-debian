@@ -3,7 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-include /usr/share/dpkg/architecture.mk
+include /usr/share/dpkg/default.mk
 
 export QT_SELECT := qt5
 export LLVM_INSTALL_DIR := $(shell llvm-config --prefix)
@@ -40,6 +40,10 @@ endif
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
+execute_after_dh_auto_install-arch:
+	# Reproducible builds: remove build path from the prl files.
+	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libQt5*.prl
+
 override_dh_install:
 ifeq (,$(filter $(DEB_HOST_ARCH),$(qwebview_archs)))
 	grep -v qwebview debian/qttools5-dev-tools.install.in >> debian/qttools5-dev-tools.install
@@ -53,15 +57,25 @@ else
 endif
 	dh_install
 
+	# assistant icons
 	install -D -p -m0644 src/assistant/assistant/images/assistant-128.png \
-		debian/qt5-assistant/usr/share/pixmaps/assistant-qt5.png
+		debian/qt5-assistant/usr/share/icons/hicolor/128x128/apps/assistant-qt5.png
+	install -D -p -m0644 src/assistant/assistant/images/assistant.png \
+		debian/qt5-assistant/usr/share/icons/hicolor/32x32/apps/assistant-qt5.png
+	# designer icons
 	install -D -p -m0644 src/designer/src/designer/images/designer.png \
-		debian/qttools5-dev-tools/usr/share/pixmaps/designer-qt5.png
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/128x128/apps/designer-qt5.png
+	# linguist icons
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-16-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/16x16/apps/linguist-qt5.png
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-32-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/32x32/apps/linguist-qt5.png
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-48-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/48x48/apps/linguist-qt5.png
+	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-64-32.png \
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/64x64/apps/linguist-qt5.png
 	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-128-32.png \
-		debian/qttools5-dev-tools/usr/share/pixmaps/linguist-qt5.png
-
-override_dh_missing:
-	dh_missing --fail-missing
+		debian/qttools5-dev-tools/usr/share/icons/hicolor/128x128/apps/linguist-qt5.png
 
 override_dh_link:
 	dh_link
@@ -74,3 +88,7 @@ override_dh_link:
 	dh_link -pqt5-assistant usr/lib/qt5/bin/assistant usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/assistant
 
 override_dh_auto_test-indep:
+
+override_dh_gencontrol:
+	dh_gencontrol -p qdbus -- -v4:$(DEB_VERSION)
+	dh_gencontrol --remaining-packages
