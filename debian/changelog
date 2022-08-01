@@ -1,3 +1,9 @@
+qttools-opensource-src (5.15.4-2c1) unstable; urgency=medium
+
+  * Fix regression in lconvert handling empty translation
+
+ -- Xuqing Liu <ciwei100000@gmail.com>  Mon, 1 Aug 2022 04:41:45 -0700
+
 qttools-opensource-src (5.15.4-2) unstable; urgency=medium
 
   * Upload to unstable.
